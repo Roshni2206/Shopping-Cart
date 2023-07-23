@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,800&display=swap');
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   
+    font-family:"Poppins", sans-serif;
+}  
+ nav
+{ 
+    display: flex; 
+    justify-content: 
+    space-between;
+    height: 80px; 
+    background-color:#80bacc; 
+    padding: 5px 60px;
+}
+nav h2{
+    color:rgb(2, 2, 56);
+}
+body {
+    background-color:#9ec1e4;
+}
+i
+{ 
+    padding-top: 22px;
+}
+#shop-product
+    { 
+        color:rgb(11, 11, 80); 
+        text-align:center; 
+        font-family: 'Poppins', sans-serif;
+    }
+   
+section
+{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-left: 139px; 
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+   img {
+border: 2px solid #79bbcd;
+  }    
+ 
+  
+  .total-price {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .total-price h2 {
+    font-size: 18px;
+  }
+  .checkout-button {
+    background-color: #db5098;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .cart-items {
+    margin-top: 20px;
+    background-color: #1abb42;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item {
+    margin-bottom: 10px;
+  }
+  
+  .cart-item h3 {
+    font-size: 16px;
+  }
+  
+  .cart-item h4 {
+    font-size: 14px;
+    color: #4d4176;
+  } 
+
+  /* .cart{
+    position: fixed;
+    top: 0;
+    right : 100%;
+    width :360px;
+    min-height: 100vh;
+    padding: 20px;
+    background:var(--bg-color);
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition :0.3s
+  }
+  .cart-active{
+    right:0;
+  }
+  .cart-title{
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:600;
+    margin-top:2rem;
+  } */
+
